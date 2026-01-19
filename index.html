@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Periodic Table</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="header">
+            <h1>Interactive Periodic Table</h1>
+            <p class="mb-0">Explore the elements of chemistry</p>
+        </div>
+
+        <div id="periodicTable" class="periodic-table">
+            <div class="loading">Loading elements...</div>
+        </div>
+
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-color reactive-nonmetal"></div>
+                <span>Reactive Nonmetals</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color alkali-metal"></div>
+                <span>Alkali Metals</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color alkaline-earth-metal"></div>
+                <span>Alkaline Earth Metals</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color transition-metal"></div>
+                <span>Transition Metals</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color other-metal"></div>
+                <span>Other Metals</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color metalloid"></div>
+                <span>Metalloids</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color halogen"></div>
+                <span>Halogens</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color noble-gas"></div>
+                <span>Noble Gases</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color lanthanide"></div>
+                <span>Lanthanides</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color actinide"></div>
+                <span>Actinides</span>
+            </div>
+        </div>
+    </div>
+<script src="elements.js"></script>
+</body>
+</html>
